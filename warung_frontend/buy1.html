@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+
+    <title>Penjual</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      	<div class="container">
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>                        
+		      </button>
+
+		      <a class="navbar-brand" href="#">Warung KRDE</a>
+		    </div>
+		    <div class="navbar-collapse" id="myNavbar">
+		      	<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#"><span class="glyphicon glyphicon-user"></span> Daftar</a></li>
+        			<li class="divider-vertical"></li>
+        			<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Masuk</a></li>
+      			</ul>
+		    </div>
+		    
+      	</div>
+    </nav>
+
+    <div class="container container-body">
+    	<div class="row-atas">
+    		<div class="keranjang">
+          <div class="top">
+            <span>Anda akan membeli barang barang ini</span>
+          </div>
+          <div class="row listKeranjang">
+            <div class="col-xs-2">
+              <img src="img/avatar.jpg" class="img-responsive">
+            </div>
+            <div class="col-xs-6 detail">
+              <span> 2 barang <a href="#">[ edit ]</a></span><br>
+              <span class="userInfo">Nama Barang 001</span><br>
+              <span class="bold">Harga Rp100.000</span>
+            </div>
+            <div class="col-xs-4">
+              <a href="#">[ hapus dari keranjang ]</a>
+            </div>
+          </div>
+          <div class="row listKeranjang">
+            <div class="col-xs-2">
+              <img src="img/avatar.jpg" class="img-responsive">
+            </div>
+            <div class="col-xs-6 detail">
+              <span> 2 barang <a href="#">[ edit ]</a></span><br>
+              <span class="userInfo">Nama Barang 001</span><br>
+              <span class="bold">Harga Rp100.000</span>
+            </div>
+            <div class="col-xs-4">
+              <a href="#">[ hapus dari keranjang ]</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container container-body">
+    	<div class="judul">
+    		<span class="judulDagangan">Detail Pengiriman</span>
+    	</div>
+      <div class="formPenerima">
+        <div class="form-group row">
+          <label class="col-md-4 col-form-label">Nama Penerima</label>
+          <div class="col-md-8">
+            <input class="form-control" type="text" placeholder="Artisanal kale" id="example-text-input">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-md-4 col-form-label">Alamat tujuan</label>
+          <div class="col-md-8">
+            <textarea class="form-control" id="exampleTextarea" rows="4"></textarea>
+            <input class="form-control" type="text" placeholder="Pilih provinsi" id="example-text-input">
+            <input class="form-control" type="text" placeholder="Pilih kota / kabupaten" id="example-text-input">
+            <input class="form-control" type="text" placeholder="Pilih kecamatan" id="example-text-input">
+            <input class="form-control" type="text" placeholder="Pilih kelurahan" id="example-text-input">
+          </div>
+        </div>
+        <div class="form-group row">
+          <label class="col-md-4 col-form-label">Pilih jasa pengiriman</label>
+          <div class="col-lg-8">
+              <select class="form-control">
+                <option>JNE</option>
+                <option>TIKI</option>
+                <option>POS</option>
+              </select>
+          </div>
+        </div>
+      </div>
+      <div class="">
+        <div class="row detailBawah">
+          <div class="col-xs-3">
+            <span>Harga keseluruhan</span><br>
+            <span class="bold">Harga Rp100.000</span>
+          </div>
+          <div class="col-xs-3">
+            <span>Ongkos jasa kirim</span><br>
+            <span class="bold">Harga Rp100.000</span>
+          </div>
+          <div class="col-xs-3">
+            <span>Total pembayaran</span><br>
+            <span class="bold total">Harga Rp100.000</span>
+          </div>
+          <div class="col-xs-3">
+            <a href="#"><button class="btn btn-default tblBeli">Bayar Sekarang</button></a>
+          </div>
+        </div>
+      </div>
+    </div> <!-- /container -->
+    <!--modal-->
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+

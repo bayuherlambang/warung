@@ -1,0 +1,436 @@
+body {
+  //min-height: 2000px;
+  padding-top: 58px;
+  font-family: 'Open Sans';
+  background-color: #cecece;
+}
+.bold{
+    font-weight: bold;
+}
+.form-control{
+    margin: 2px 0px 2px 0px;
+    border-radius: 1px;
+}
+.divider-vertical {
+    height: 50px;
+    margin: 0px;
+    border-left: 1px solid #F2F2F2;
+    border-right: 1px solid #FFF;
+}
+.container{
+	width: 600px;
+    height: auto;
+}
+.container-body{
+	background-color: #fff;
+	//margin-bottom: 7px;
+    padding-bottom: 10px;
+    margin-top: -7px;
+    height: auto;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+.navbar-default .navbar-brand:hover {
+    color: #fff;
+}
+.navbar-default {
+    background-color: #0032a3;
+    border-color: #e7e7e7;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #eee;
+}
+.nav>li {
+    position: relative;
+    display: block;
+    background-color: #4667b3;
+}
+.row-atas{
+	text-align: center;
+	padding-top: 10px;
+}
+.kolomCari {
+	border-radius: 1px; 
+}
+.boxTombol{
+    margin-top: -7px;
+    padding: 0px 0px;
+}
+.areaKatgegori{
+    padding-right: 10px;
+}
+.areaUrutkan{
+    padding-left: 10px;
+}
+.judul{
+	color: #0032a3;
+}
+.tblCari{
+	color: #fff;
+    background-color: #0032a3;
+}
+.tblBeli{
+	color: #fff;
+    background-color: #0032a3;
+    width: auto;
+    border-radius: 1px;
+    min-height: 39px;
+}
+.tblBeli:hover{
+    color: #fff;
+    background-color:  #d6931f;
+    width: auto;
+    border-radius: 1px;
+    min-height: 39px;
+}
+.tblKategori{
+	color: #fff;
+    background-color: #d6931f;
+    border-radius: 1px;
+    float:left;
+    width: 50%;
+}
+.selectSort{
+	color: #fff;
+    background-color: #adacac;
+    border-radius: 1px;
+    float:right;
+    width: 50%;
+}
+.dagangan{
+	padding: 13px 15px;
+}
+.judul{
+	background-color: #0032a3;
+    margin: 0px -15px 0px -15px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    text-align: center;
+}
+.judulDagangan{
+	color:#f5f5f5;
+    font-size: 14px;
+    font-weight: bold;
+}
+.itemDagangan {
+    border: 1px solid #eee;
+    margin: 0px -16px 13px -16px;
+    border-radius: 2px;
+    border: 1px solid rgba(179, 179, 179, 0.75);
+}
+.footerKanan{
+	float: right;
+    padding-right: 0px;
+    padding-top: 14px;
+    padding-left: 73px;
+}
+.footerKiri{
+	padding: 2px 0px 0px 17px;
+}
+.namaBarang{
+	font-weight: bold;
+    color: #0032a3;
+}
+.hrgBarang{
+	font-size: 12pt;
+    font-weight: bold;
+}
+.penjual{
+	font-style: italic;
+	font-size: 10pt;
+}
+
+bootstrap.css:1062
+
+
+.userIcon{
+	padding: 5px;
+}
+.user{
+	padding: 8px;
+}
+.namaBrg{
+	text-align: left;
+    padding-left: 11px;
+    border-bottom: 1px solid #cecece;
+}
+.kiri{
+	float: left;
+}
+.kanan{
+	float: right;
+}
+.harga{
+	padding-top: 5px;
+}
+.userInfox{
+    text-align: left;
+    float: left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+    margin-left: -43px;
+}
+.userInfo{
+    color: #0032a3;
+    font-size: 16px;
+    font-weight: bold;
+}
+.welcomeUser{
+    color: #0032a3;
+    float: left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+.boxBawah{
+    background-color: #efefef;
+    border: 1px solid rgba(193, 193, 193, 0.48);
+}
+.bwhKiri{
+    //margin: 0px -10px 0px 0px;
+    padding: 5px;
+}
+.bwhKanan{
+    //margin: 0px 0px 0px 10px;
+    padding: 5px;
+}
+
+.tebal{
+    font-weight: 900;
+}
+.angka-notif{
+    color: red;
+}
+.angka-barang{
+    color: #0032a3;
+}
+.hr-menu{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 0;
+    border-top: 1px solid #eee;
+}
+
+.listKeranjang{
+    padding-top:4px;
+    padding-bottom: 4px;
+}
+
+.keranjang{
+
+}
+.keranjang .top{
+    padding-bottom: 7px;
+}
+.keranjang .detail{
+    text-align: left;
+}
+.formPenerima{
+    padding-top: 10px;
+}
+.col-form-label{
+    padding: 5px;
+    text-align: right;
+}
+
+.detailBawah{
+    background-color: #0032a3;
+    padding: 10px;
+}
+.detailBawah span{
+    color: #fff;
+}
+.detailBawah button{
+    color: #0032a3;
+    background-color: #ffffff;
+    font-weight: bold;  
+}
+.detailBawah .total{
+    color:#ffc155;
+}
+.areaTotal{
+    padding: 10px;
+}
+.hrgFinal{
+    color: #0032a3;
+    font-weight: bold;
+    font-size: 16px;
+}
+.listBank{
+    padding: 17px 0px;
+}
+.rekening{
+    margin-top: 30px;
+}
+.noRekening{
+    text-align: left;
+}
+.bank{
+    text-align: right;
+    font-weight: bold;
+    padding: 10px 23px 10px 0px;
+}
+.batasbayar{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: red;
+    font-weight: bold;
+}
+.konfirmasi div{
+    padding: 15px 0px;
+}
+.centang{
+    padding: 20px 0px;
+}
+.centang .ikon{
+    font-size: -webkit-xxx-large;
+    color: green;
+}
+.detailKonfirmasi{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.detailKonfirmasi p{
+    margin:0px;
+}
+.centangTombol{
+    padding: 15px 0px;
+}
+.log{
+    padding: 3px 0px;
+}
+.logKiri{
+    text-align: right;
+}
+.logKanan{
+    text-align: left;
+    padding: 5px 10px;
+}
+.miring{
+    font-style: italic;
+}
+.kecil{
+    font-size: 12px;
+}
+div#topDiv{
+width:100%;
+height:20px;
+background-color:#fff;
+display: inline-flex;
+}
+
+div#headerDiv{
+width:100%;
+background-color:#fff;
+text-align:center;
+}
+
+div#contentsDiv{
+width:100%;
+background-color:#fff;
+}
+
+div#footDiv{
+width:100%;
+padding-bottom: 5px;
+padding-left: 10px;
+
+}
+
+.innerDiv{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cecece;
+}
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 45%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-animation-name: animatetop;
+    -webkit-animation-duration: 0.4s;
+    animation-name: animatetop;
+    animation-duration: 0.4s
+}
+
+/* Add Animation */
+@-webkit-keyframes animatetop {
+    from {top:-300px; opacity:0} 
+    to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+    from {top:-300px; opacity:0}
+    to {top:0; opacity:1}
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+.modal-body {padding: 2px 16px;}
+
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+}
+
+
+@media only screen and (max-device-width: 640px){
+    .userInfo{
+        text-align: left;
+        float: left;
+        -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+        -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+        box-sizing: border-box;         /* Opera/IE 8+ */
+        margin-left: 0px;
+    }
+    .divider-vertical{
+        display: none;
+    }
+}
